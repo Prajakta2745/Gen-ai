@@ -8,7 +8,7 @@
     <title>Modern Login Page | AsmrProg</title>
 </head>
 <body>
-    <div class="container" id="container">
+    <div class="container" id="LoginForm">
         <div class="form-container sign-up">
             <form>
                 <h1>Create Account</h1>
@@ -19,9 +19,9 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registeration</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input type="text" id="Name" placeholder="Name">
+                <input type="email" id="Email" placeholder="Email">
+                <input type="password" id="Password" placeholder="Password">
                 <button>Sign Up</button>
             </form>
         </div>
@@ -35,8 +35,8 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email password</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input type="email" id="Email" placeholder="Email">
+                <input type="password" id="Password" placeholder="Password">
                 <a href="#">Forget Your Password?</a>
                 <button>Sign In</button>
             </form>
@@ -57,5 +57,6 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
 </body>
 </html>
